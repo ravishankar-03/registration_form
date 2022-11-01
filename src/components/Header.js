@@ -14,7 +14,7 @@ const Header = () => {
     checkbox: false,
   };
 
-  const schema = Yup.object().shape({
+  const schema = Yup.object({
     name: Yup.string().required("Name is required"),
     subject: Yup.string().required("Subject is Required"),
     group: Yup.string().required("Group is Required"),
