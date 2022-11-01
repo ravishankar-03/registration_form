@@ -1,0 +1,10 @@
+p {
+    font-family: Lato;
+  }
+  
+  .register-form {
+    box-sizing: border-box;
+    max-width: 350px;
+    margin: auto;
+  }
+
